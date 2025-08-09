@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raksha Bandhan Wishes</title>
+<style>
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  header {
+    background: rgba(255,255,255,0.9);
+    padding: 20px;
+    border-bottom: 5px solid #ff6699;
+  }
+  h1 {
+    color: #d63384;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px auto;
+    max-width: 1000px;
+  }
+  .gallery img {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+    width: 250Spx;
+    height: 300px;
+    object-fit: cover;
+  }
+  .gallery img:hover {
+    transform: scale(1.1);
+  }
+  .quote-box {
+    background: rgba(255,255,255,0.8);
+    border-radius: 15px;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 700px;
+    font-style: italic;
+    font-size: 1.2em;
+    color: #5c2d91;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+  footer {
+    background: rgba(255,255,255,0.9);
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #555;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Happy Raksha Bandhan, Dear Dada!!</h1>
+    <p>Celebrating the bond of love and protection between us ❤️</p>
+  </header>
+
+  <div class="gallery">
+    <img src="./369818f1-831c-4ce2-8df6-f3108a891281.jpg" alt="Brother and Sister">
+
+    
+  </div>
+
+  <div class="quote-box">
+    "Brothers and sisters are as close as hands and feet. No matter the distance, the bond remains forever."
+  </div>
+
+  <div class="quote-box">
+    "A brother is a friend given by nature, and a sister is a gift to the heart."
+  </div>
+
+  <footer>
+    Made with 💖 for my brother | Raksha Bandhan 2025
+  </footer>
+
+<script>
+  // Simple fade-in effect
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.gallery img').forEach((img, i) => {
+      img.style.opacity = 0;
+      setTimeout(() => {
+        img.style.transition = 'opacity 1s ease';
+        img.style.opacity = 1;
+      }, i * 300);
+    });
+  });
+</script>
+</body>
+</html>
